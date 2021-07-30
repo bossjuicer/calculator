@@ -7,7 +7,7 @@ body{
 #main{
 
 	margin:auto;
-    height: 500px;
+    height: 550px;
     width: 350px;
     position: absolute;
     top:0;
@@ -17,19 +17,37 @@ body{
     background: white;
     border-radius: 5px;
 }
+#para-main{
+	background-color: #C3BEBD;
+	margin: 10px 20px;
+	border-radius: 5px;
+
+}
 #history{
-	height: 20px;
+	height: 30px;
 	text-align: right;
 	margin: 0 20px;
-	padding-top: 20px;
-	font-size: 30px;
+	padding-top: 5px;
+	font-size: 25px;
+	/* background-color: #E89989; */
+}
+#operation{
+	height: 15px;
+	text-align: left;
+	margin: 20px 20px;
+	font-size: 30px;;
+	/* margin-top: 30px; */
+	/* padding-top: 20px; */
+	/* background-color: #E89989; */
 }
 #output{
 	text-align: right;
 	height: 60px;
 	margin: 10px 20px;
 	font-size: 30px;
+	/* background-color: #E89989; */
 }
+
 #keyboard{
 	display: flex;
 	justify-content: stretch;
@@ -39,9 +57,11 @@ body{
 
 #first-div{
 	/*background: red;*/
-	height: 360px;
+	height: 355px;
 	width: 100px;
 	/*opacity: 40%;*/
+	/* background: rgb(237,163,178); */
+/* background: linear-gradient(90deg, rgba(237,163,178,1) 100%, rgba(252,252,252,1) 100%, rgba(195,200,223,1) 100%); */
 }
 
 #second-div{
@@ -79,6 +99,7 @@ body{
 }
 .number, .operator{
 	cursor: pointer;
+	/* background: rgb(34,193,195); */
+	background-color: #C3BEBD;
+/
 }
-
-#first-div.
