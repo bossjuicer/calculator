@@ -1,0 +1,105 @@
+body{
+   background: #1e81b0; 
+   font-family: serif;
+  
+}
+
+#main{
+
+	margin:auto;
+    height: 550px;
+    width: 350px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: white;
+    border-radius: 5px;
+}
+#para-main{
+	background-color: #C3BEBD;
+	margin: 10px 20px;
+	border-radius: 5px;
+
+}
+#history{
+	height: 30px;
+	text-align: right;
+	margin: 0 20px;
+	padding-top: 5px;
+	font-size: 25px;
+	/* background-color: #E89989; */
+}
+#operation{
+	height: 15px;
+	text-align: left;
+	margin: 20px 20px;
+	font-size: 30px;;
+	/* margin-top: 30px; */
+	/* padding-top: 20px; */
+	/* background-color: #E89989; */
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+	/* background-color: #E89989; */
+}
+
+#keyboard{
+	display: flex;
+	justify-content: stretch;
+	height: 420px;
+	width: 350px;
+}
+
+#first-div{
+	/*background: red;*/
+	height: 355px;
+	width: 100px;
+	/*opacity: 40%;*/
+	/* background: rgb(237,163,178); */
+/* background: linear-gradient(90deg, rgba(237,163,178,1) 100%, rgba(252,252,252,1) 100%, rgba(195,200,223,1) 100%); */
+}
+
+#second-div{
+	/*background: blue;*/
+	height: 360px;
+	width: 100px;
+	/*opacity: 10%;*/
+}
+
+#third-div{
+	/*background: black;*/
+	height: 360px;
+	width: 100px;
+}
+
+#forth-div{
+	/*background: green;*/
+	height: 360px;
+	width: 100px;
+}
+
+
+.number,.operator,.empty{
+	width: 50px;
+	height: 50px;
+	/*margin: 10px;*/
+	/*align-items: center;*/
+	margin: 10px 20px;
+	border-radius: 50px;
+	font-size: 23px;
+	border-width: 0;
+	font-weight: bold;
+	background: white;
+	
+}
+.number, .operator{
+	cursor: pointer;
+	/* background: rgb(34,193,195); */
+	background-color: #C3BEBD;
+/
+}
